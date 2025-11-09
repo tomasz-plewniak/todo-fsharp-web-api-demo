@@ -1,0 +1,14 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net9.0</TargetFramework>
+        <GenerateDocumentationFile>true</GenerateDocumentationFile>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <Compile Include="Todos\Status.fs" />
+      <Compile Include="Todos\Priority.fs" />
+      <Compile Include="Todos\TodoEntity.fs" />
+    </ItemGroup>
+
+</Project>
