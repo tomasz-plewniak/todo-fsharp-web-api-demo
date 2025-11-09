@@ -5,4 +5,10 @@
         <GenerateDocumentationFile>true</GenerateDocumentationFile>
     </PropertyGroup>
 
+    <ItemGroup>
+      <Compile Include="Todos\TodoEntity.fs" />
+      <Compile Include="Todos\Status.fs" />
+      <Compile Include="Todos\Priority.fs" />
+    </ItemGroup>
+
 </Project>
